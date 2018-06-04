@@ -1,22 +1,18 @@
-TASK DATE (EASY): 16.03.2018 - FINISHED: 16.03.2018
+FOR PRIVACY AND CODE PROTECTING REASONS THIS IS A SIMPLIFIED VERSION OF CHANGES AND NEW FEATURES
 
+TASK DATE: 16.03.2018 - FINISHED: 16.03.2018
 
-TASK SHORT DESCRIPTION: 1412 [
-								Prevent/filter out/remove capital letters from being input into the email address 
-								field in the registration form
-							]
+TASK'S LEVEL: (EASY)
 
-GITHUB REPOSITORY CODE: hotfix/task-1410-prevent-capital-letters-in-email-address
-
-
-ORIGINAL WORK: https://github.com/BusinessBecause/network-site/tree/hotfix/task-1410-prevent-capital-letters-in-email-address
-
+TASK SHORT DESCRIPTION: [ Prevent/filter out/remove capital letters from being input into the email address field in the registration form]
+				
+GITHUB REPOSITORY CODE:hotfix/task-1410-prevent-capital-letters-in-email-address
 
 CHANGES
  
 	IN FILES: 
 		
-		\network-site\addons\default\modules\bbusers\js\register.js
+		register.js
 
 			CHANGED CODE:
 			
@@ -27,7 +23,7 @@ CHANGES
 					
 					
 					
-		\network-site\assets\jquery-validate\jquery.validate.min.js
+		jquery.validate.min.js
 		
 			CHANGED CODE:
 				
